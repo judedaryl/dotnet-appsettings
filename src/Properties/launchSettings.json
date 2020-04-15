@@ -1,0 +1,23 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Nonprod": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "environment/value",
+      "applicationUrl": "https://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Nonprod"
+      }
+    },
+    "Prod": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "environment/value",
+      "applicationUrl": "https://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Prod"
+      }
+    }
+  }
+}
